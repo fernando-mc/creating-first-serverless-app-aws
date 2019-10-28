@@ -35,4 +35,4 @@ Bonus step! Optional - Create an [Auth0 Account](https://auth0.com/)
 
 ### [Next - Deploying Your First Serverless API](/deploying-first-serverless-api.md)
 
-### [Previous - Introduction](/)
+### [Previous - Introduction](/creating-first-serverless-app-aws/)
