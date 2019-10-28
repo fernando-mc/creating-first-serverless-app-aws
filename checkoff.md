@@ -33,6 +33,6 @@ Bonus step! Optional - Create an [Auth0 Account](https://auth0.com/)
     - Add an allowed callback url of http://localhost:3000
 
 
-### Next - Deploying Your First Serverless API
+### [Next - Deploying Your First Serverless API](/deploying-first-serverless-api.md)
 
 ### [Previous - Introduction](/)
