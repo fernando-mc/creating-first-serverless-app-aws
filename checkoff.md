@@ -17,7 +17,13 @@ Because this workshop is limited on time please make sure to check off these ste
     - Sign into your AWS Account and the Serverless Dashboard in the same browser
     - Follow the steps under "Link your AWS Account" [here](https://serverless.com/framework/docs/dashboard/access-roles#link-your-aws-account) to connect your Serverless Dashboard account to AWS (you'll need to start inside the [Serverless Dashboard](https://dashboard.serverless.com))
 
-7. Run `serverless login` from your terminal
+7. Run `serverless login` from your terminal - If you use Safari as your default browser... First of all, tell me why, but you will not be able to use this step. Instead:
+    - Login to the Serverless Dashboard
+    - Go to the top right corner and click on the settings menu
+    - Click "Personal Access Keys"
+    - Create an Access Key
+    - Set an environment variable on your machine called `SERVERLESS_ACCESS_KEY`
+    - Keep going as normal
 8. Run `serverless` from your terminal and complete the prompts. Make sure to select your serverless dashboard account. 
 9. When the process is finished, you should change directories into your new service directory with `cd your-service-name`.
 10. Checkoff time! When you're done with these steps please run `serverless deploy` and let the instructor see the output. If you accidentally clear the screen too soon you can run `serverless info`.
