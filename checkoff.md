@@ -1,6 +1,6 @@
 # Checkoff Steps
 
-Because this workshop is limited on time please make sure to check off these steps as soon as possible before the start of the workshop. If you have any questions you can get in touch with Fernando through any of the methods listed [here](www.fernandomc.com/contact). During the workshop, just ask him for help.
+Because this workshop is limited on time please make sure to check off these steps as soon as possible before the start of the workshop. If you have any questions you can get in touch with Fernando through any of the methods listed [here](https://www.fernandomc.com/contact). During the workshop, just ask him for help.
 
 ## Checkoff Steps:
 
@@ -28,6 +28,6 @@ Optional bonus step - Create an [Auth0 Account](https://auth0.com/)
     - Add an allowed callback url of http://localhost:3000
 
 
-### [Next - Deploying Your First Serverless API Service](/deploying-first-serverless-api.md)
+### [Next - Deploying Your First Serverless API Service](deploying-first-serverless-api.md)
 
-### [Previous - Outline](/)
+### [Previous - Outline](README.md)

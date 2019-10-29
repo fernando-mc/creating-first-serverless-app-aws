@@ -23,4 +23,4 @@ To be sure it works, rerun `serverless client deploy` and test the application a
 
 And hopefully... You have a functioning application! If not, I've failed you horribly and would appreciate any PR fixes to this tutorial or my code!
 
-### [Previous - Deploying Your First Serverless Frontend](/deploying-first-serverless-frontend.md)
+### [Previous - Deploying Your First Serverless Frontend](deploying-first-serverless-frontend.md)

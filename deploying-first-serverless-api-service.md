@@ -165,6 +165,6 @@ def handler(event, context):
 
 When you're done creating these two files and updating your `serverless.yml` go ahead and run `serverless deploy` in your terminal! This should deploy the entire service and provide you with two API Endpoint URLs.
 
-### [Previous - Demo Introduction](/demo-introduction.md)
+### [Previous - Demo Introduction](demo-introduction.md)
 
-### [Next - Deploying Your First Serverless Frontend](/deploying-first-serverless-frontend.md)
+### [Next - Deploying Your First Serverless Frontend](deploying-first-serverless-frontend.md)

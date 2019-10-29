@@ -61,6 +61,6 @@ With that all configured, we can run `serverless client deploy` and see our new 
 
 If you notice the voting parts missing or the Auth0 integration failing, don't worry. We'll talk about that in the next section!
 
-### [Previous - Deploying Your First Serverless API Service](/deploying-first-serverless-api.md)
+### [Previous - Deploying Your First Serverless API Service](deploying-first-serverless-api.md)
 
-### [Next - Adding Authentication to Our Frontend](/adding-authentication.md)
+### [Next - Adding Authentication to Our Frontend](adding-authentication.md)
