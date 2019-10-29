@@ -1,5 +1,7 @@
 # Deploying Your First Serverless API Service
 
+#### [Outline](README.md)
+
 ### Goals
 
 - Deploying two HTTP API Endpoints built with AWS Lambda and API Gateway

@@ -1,5 +1,7 @@
 # Demo Introduction
 
+#### [Outline](README.md)
+
 ## The Frontend
 
 In this workshop, we'll be building out Serverless Jams - a website dedicated to voting on some of the best coding music out there. Here's a screenshot:
@@ -30,4 +32,6 @@ While we work on the workshop we'll be trying to build up to the final product b
 
 Keep in mind that, in the long run, several of the values inside of `serverless.yml`, `app.js` and `auth_config.json` will need to change in order for you properly setup your own application.
 
-### [Next - Deploying Your First Serverless API](deploying-first-serverless-api.md)
+### [Next - Deploying Your First Serverless API Service](deploying-first-serverless-api-service.md)
+
+### [Previous - Checkoff Steps](checkoff.md)
