@@ -10,21 +10,16 @@ Because this workshop is limited on time please make sure to check off these ste
 4. [Install Node.js and npm](https://nodejs.org/en/download)
 5. Install or update the Serverless Framework: 
     - Install: `npm install -g serverless`
-    - Install: `npm update -g serverless`
-6. Setup an AWS Access Role in the Serverless Dashboard
+    - Update: `npm update -g serverless`
+6. Setup an AWS Access Role in the [Serverless Dashboard](https://dashboard.serverless.com)
     - Sign into your AWS Account and the Serverless Dashboard in the same browser
-    - Click "profiles" in the Serverless Dashboard header menu
-    - Click the default profile
-    - Click Personal AWS Account
-    - Click "Create a role wizard"
-    - Follow the instructions and copy and paste the ARN from the role you create.
-    - Save the changes in the serverless dashboard
+    - Follow the steps under "Link your AWS Account" [here](https://serverless.com/framework/docs/dashboard/access-roles#link-your-aws-account)
 7. Run `serverless login` from your terminal
 8. Run `serverless` from your terminal and complete the prompts. Make sure to select your serverless dashboard account. 
 9. When the process is finished, you should change directories into your new service directory with `cd your-service-name`.
 10. Checkoff time! When you're done with these steps please run `serverless deploy` and let the instructor see the output. If you accidentally clear the screen too soon you can run `serverless info`.
 
-Bonus step! Optional - Create an [Auth0 Account](https://auth0.com/)
+Optional bonus step - Create an [Auth0 Account](https://auth0.com/)
     - Create a tenant domain in the US
     - Click "Create Application"
     - Click "Single Page Web Applications" and create
@@ -33,6 +28,6 @@ Bonus step! Optional - Create an [Auth0 Account](https://auth0.com/)
     - Add an allowed callback url of http://localhost:3000
 
 
-### [Next - Deploying Your First Serverless API](/deploying-first-serverless-api.md)
+### [Next - Deploying Your First Serverless API Service](/deploying-first-serverless-api.md)
 
-### [Previous - Introduction](/creating-first-serverless-app-aws/)
+### [Previous - Outline](/)

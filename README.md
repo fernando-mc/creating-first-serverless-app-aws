@@ -6,12 +6,31 @@ If you've never heard of "Serverless" before I'll explain the benefits and drawb
 
 # Outline
 
-## [Setup - Instructor Checkoff Steps](/checkoff.md)
+### [Setup - Instructor Checkoff Steps](/checkoff.md)
 
-## [Deploying Your First Serverless API Service](/deploying-first-serverless-api-service.md)
+- Installing Node and npm
+- Creating an AWS Account
+- Setting up the Serverless Framework and Serverless Dashboard
+- Deploying our first service
 
-## [Deploying Your First Serverless Frontend](/deploying-first-serverless-serverless-frontend.md)
+### [Demo Introduction](/demo-introduction.md)
 
-## [Integrating Serverless APIs and Frontends](integrating-serverless-apis-frontends.md)
+- Seeing the final product we'll be building by the end of the workshop
+- Reviewing the code samples for this workshop and where to get them
 
-## [Adding Authentication to Our Frontend]
+### [Deploying Your First Serverless API Service](/deploying-first-serverless-api-service.md)
+
+- Deploying two HTTP API Endpoints built with AWS Lambda and API Gateway
+- Integrating a DynamoDB Table to store data for our API
+- Deploying our service through the Serverless Dashboard
+
+### [Deploying Your First Serverless Frontend](/deploying-first-serverless-frontend.md)
+
+- Installing and configuring a Serverless Framework Plugin
+- Adding our deployed HTTP API endpoints to our website
+- Deploying the website to Amazon S3
+
+### [Adding Authentication to Our Frontend](/adding-authentication.md)
+
+- Configuring our own Auth0 tenant
+- First steps of adding authentication to our website
