@@ -16,17 +16,20 @@ Because this workshop is limited on time please make sure to check off these ste
 6. Setup an AWS Access Role in the [Serverless Dashboard](https://dashboard.serverless.com)
     - Sign into your AWS Account and the Serverless Dashboard in the same browser
     - Follow the steps under "Link your AWS Account" [here](https://serverless.com/framework/docs/dashboard/access-roles#link-your-aws-account) to connect your Serverless Dashboard account to AWS (you'll need to start inside the [Serverless Dashboard](https://dashboard.serverless.com))
-
-7. Run `serverless login` from your terminal - If you use Safari as your default browser... First of all, tell me why, but you will not be able to use this step. Instead:
+7. I'd suggest doing the following to save yourself some time on the next step:
+    - If possible, set Chrome or Firefox as default browsers (there are possible issues with Safari)
+    - Temporarily disable any extensions that block JavaScript (e.g. NoScript) or and overzealous adblockers (we'll be doing some authentication calls to Auth0 that I've seen a NoScript extension block before)
+    - You can turn your adblockers and NoScript back on as soon as the credentials are set locally on your machine after you login.
+8. Run `serverless login` from your terminal. This should open up a browser window that asks you to sign in to the Serverless Dashboard. When you finish that process the terminal prompt should automatically move on. If this process fails, or you see error messages around authentication later on try these steps instead:
     - Login to the Serverless Dashboard
-    - Go to the top right corner and click on the settings menu
+    - Go to the top right corner and click on the dropdown near your organization name
     - Click "Personal Access Keys"
     - Create an Access Key
     - Set an environment variable on your machine called `SERVERLESS_ACCESS_KEY`
     - Keep going as normal
-8. Run `serverless` from your terminal and complete the prompts. Make sure to select your serverless dashboard account. 
-9. When the process is finished, you should change directories into your new service directory with `cd your-service-name`.
-10. Checkoff time! When you're done with these steps please run `serverless deploy` and let the instructor see the output. If you accidentally clear the screen too soon you can run `serverless info`.
+9. Run `serverless` from your terminal and complete the prompts. Make sure to select your serverless dashboard account. 
+10. When the process is finished, you should change directories into your new service directory with `cd your-service-name`.
+11. Checkoff time! When you're done with these steps please run `serverless deploy` and let the instructor see the output. If you accidentally clear the screen too soon you can run `serverless info`.
 
 Optional bonus step - Create an [Auth0 Account](https://auth0.com/)
     - Create a tenant domain in the US
